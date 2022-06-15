@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HelloWorld", "HelloWorld\HelloWorld.shproj", "{E2B871BF-E5F7-4F1C-9B6B-E8274CB52EC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Desktop", "HelloWorld.Desktop\HelloWorld.Desktop.csproj", "{AA4747C4-2E88-4CF9-917D-CFEB380B0316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Android", "HelloWorld.Android\HelloWorld.Android.csproj", "{F3848008-746A-4AA4-8DFE-13C11644809B}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		HelloWorld\HelloWorld.projitems*{aa4747c4-2e88-4cf9-917d-cfeb380b0316}*SharedItemsImports = 4
+		HelloWorld\HelloWorld.projitems*{e2b871bf-e5f7-4f1c-9b6b-e8274cb52ec2}*SharedItemsImports = 13
+		HelloWorld\HelloWorld.projitems*{f3848008-746a-4aa4-8dfe-13c11644809b}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA4747C4-2E88-4CF9-917D-CFEB380B0316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4747C4-2E88-4CF9-917D-CFEB380B0316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4747C4-2E88-4CF9-917D-CFEB380B0316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4747C4-2E88-4CF9-917D-CFEB380B0316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3848008-746A-4AA4-8DFE-13C11644809B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3848008-746A-4AA4-8DFE-13C11644809B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3848008-746A-4AA4-8DFE-13C11644809B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F3848008-746A-4AA4-8DFE-13C11644809B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3848008-746A-4AA4-8DFE-13C11644809B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3848008-746A-4AA4-8DFE-13C11644809B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1335E6AF-D8CE-42BD-9624-53BB2822D0B0}
+	EndGlobalSection
+EndGlobal
